@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.navbar-brand{
+  color: rgb(115, 166, 249);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item .active{
+  border-bottom: 2px solid rgb(115, 166, 249);
+  color: rgb(115, 166, 249) !important;
+  font-weight: bold;
+}
+.container{
+  margin-top: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.background{
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logo{
+  height: 70px;
+  width: 120px;
+  border-radius: 10px;
+}
+.card-margin{
+  margin-top: 100px;
+}
+.home-header{
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+  background-size: cover;
+  height: 200vh;
+}
+.home{
+  background-image: url(C:\Users\navne\OneDrive\Desktop\Mini project\frontend\src\Components\70 Dark Guitar Player Wallpapers   Download at WallpaperBro.jpg);
+  background-size: cover;
+  height: 150vh;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 50px;
   color: white;
+  font-size: 80px;
+}
+.login-button{
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 10px;
+  width: 90px;
+}
+.signup-button{
+  width: 90px;
+}
+.table{
+  margin-top: 20px;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 370px;
+  width: 50%;
+  border-radius: 50px;
+}
+.heading{
+  color: rgba(214, 27, 27, 0.763);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-content{
+  font-size: 20px;
 }

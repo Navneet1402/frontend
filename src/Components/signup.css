@@ -1,0 +1,8 @@
+.signup{
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+.card{
+    border-radius: 15px;
+}
